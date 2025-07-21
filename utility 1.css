@@ -1,0 +1,156 @@
+.maindiv {
+  width: 990px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headerdiv {
+  float: left;
+  width: 870px;
+  position: relative;
+  padding-bottom: 20px;
+  color: white;
+  padding-top: 6px;
+  margin-left: -160px;
+}
+.logodiv {
+  float: left;
+  width: 266px;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.logo {
+  text-indent: 70px;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  padding-top: 13px;
+}
+.logindiv {
+  float: right;
+  position: relative;
+  width: 449px;
+  height: 50px;
+}
+.textbox {
+  width: 160px;
+  height: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: #f00 groove 1px;
+}
+#btnlogin {
+  width: 71px;
+  color: rgb(253, 251, 251);
+  height: 27px;
+  margin: 0px;
+  height: 0px;
+  position: relative;
+  display: inline;
+  top: 0px;
+  padding: 4px;
+  padding-bottom: 20px;
+  background-color: tomato;
+  border-radius: 10px;
+  border: #f00 groove 1px;
+}
+.user {
+  color: white;
+}
+.ForgetPassword {
+  float: right;
+  margin-right: 90px;
+  color: white;
+}
+.menudiv {
+  font-size: 14pt;
+  position: relative;
+  float: right;
+  margin-top: 15px;
+  color: #fff;
+  width: 500px;
+}
+.menudiv ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menudiv ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.menudiv ul li a {
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 0 10px;
+  color: white;
+  font-size: 22px;
+  border-radius: 20px;
+}
+.menudiv ul li a:hover {
+  background-color: #f0f0f0;
+  color: black;
+}
+.lowerdiv {
+  float: left;
+  width: 870px;
+  position: relative;
+}
+.searcharea {
+  float: left;
+  height: 150px;
+  width: 870px;
+  padding: 0 0 15px 50px;
+  position: relative;
+  background-repeat: repeat-x;
+  font-size: 12px;
+  margin-left: 140px;
+}
+.searcharea form {
+  width: 800px;
+}
+.p1 {
+  float: left;
+  font-size: 12px;
+  padding: 2px;
+  margin-left: 10px;
+}
+.label1 {
+  display: block;
+  font-size: 20px;
+  margin-top: -20px;
+  color: white;
+  height: 24px;
+}
+#city {
+  width: 180px;
+  padding: 5px;
+  border: #fff solid 1px;
+  border-radius: 10px;
+}
+#bloodgroup {
+  width: 200px;
+  padding: 5px;
+  border: #fff solid 1px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.btnsearch {
+  width: 106px;
+  height: 31px;
+  margin-top: 19px;
+  border: black solid 1px;
+  text-indent: 10px;
+  border-radius: 10px;
+  border: #f00 groove 1px;
+}
+h1{
+    color: white;
+   margin-bottom: 60px;  
+
+} 

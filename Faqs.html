@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Donation System</title>
+    <link rel="stylesheet" href="Faqs.css" />
+  </head>
+
+  <body>
+    <div class="maindiv">
+      <div class="headerdiv">
+        <div class="logodiv">
+          <h1 class="logo">
+            <a href="main.html">Blood</a>
+          </h1>
+        </div>
+        <div class="logindiv">
+          <form action="">
+            <input
+              type="text"
+              name="Username"
+              id="uname"
+              placeholder="Username"
+              required
+            />
+            <input
+              type="password"
+              name="Password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <input type="submit" name="Login" id="btnlogin" />
+
+            <a href="signup.html" class="user">New: User</a>
+            <a href="Forget.html" class="ForgetPassword">Forget Password</a>
+          </form>
+        </div>
+        <div class="menudiv">
+          <ul>
+            <li>
+              <a href="main.html">Home</a>
+            </li>
+            <li>
+              <a href="Emergency.html">Emergency</a>
+            </li>
+            <li>
+              <a href="about.html">About </a>
+            </li>
+            <li>
+              <a href="Faqs.html">FAQs</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="lowerdiv">
+        <div class="searcharea">
+          <h1 class="seekers">Blood Seekers</h1>
+          <form action="">
+            <p class="city aze p1">
+              <label class="label1">Select Your City</label><br />
+              <select name="city" id="city" title="Select Your City">
+                <optgroup
+                  title="Azad Jammu and Kashmir (Azad Kashmir)"
+                  label="» Azad Jammu and Kashmir (Azad Kashmir)"
+                ></optgroup>
+                <option value>--Select--</option>
+                <option value="Bagh">Bagh</option>
+                <option value="Bhimber">Bhimber</option>
+                <option value="Kotli">Kotli</option>
+                <option value="Mirpur">Mirpur</option>
+                <option value="Muzaffarabad">Muzaffarabad</option>
+                <option value="Neelum">Neelum</option>
+                <option value="Poonch">Poonch</option>
+                <option value="Sudhnati">Sudhnati</option>
+                <optgroup title="Balochistan" label="» Balochistan"></optgroup>
+                <option value="Awaran">Awaran</option>
+                <option value="Barkhan">Barkhan</option>
+                <option value="Bolan">Bolan</option>
+                <option value="Chagai">Chagai</option>
+                <option value="Dera Bugti">Dera Bugti</option>
+                <option value="Gwadar">Gwadar</option>
+                <option value="Jafarabad">Jafarabad</option>
+                <option value="Jhal Magsi">Jhal Magsi</option>
+                <option value="Kalat">Kalat</option>
+                <option value="Kech">Kech</option>
+                <option value="Kharan">Kharan</option>
+                <option value="Khuzdar">Khuzdar</option>
+                <option value="Kohlu">Kohlu</option>
+                <option value="Lasbela">Lasbela</option>
+                <option value="Loralai">Loralai</option>
+                <option value="Mastung">Mastung</option>
+                <option value="Musakhel">Musakhel</option>
+                <option value="Naseerabad">Naseerabad</option>
+                <option value="Nushki">Nushki</option>
+                <option value="Panjgur">Panjgur</option>
+                <option value="Pishin">Pishin</option>
+                <option value="Qilla Abdullah">Qilla Abdullah</option>
+                <option value="Qilla Saifullah">Qilla Saifullah</option>
+                <option value="Quetta">Quetta</option>
+                <option value="Sibi">Sibi</option>
+                <option value="Zhob">Zhob</option>
+                <option value="Ziarat">Ziarat</option>
+                <optgroup
+                  title="Federally Administered Tribal Areas (FATA"
+                  label="» Federally Administered Tribal Areas (FATA"
+                ></optgroup>
+                <option value="Bajaur Agency">Bajaur Agency</option>
+                <option value="Khyber Agency">Khyber Agency</option>
+                <option value="Kurram Agency">Kurram Agency</option>
+                <option value="Mohmand Agency">Mohmand Agency</option>
+                <option value="North Waziristan Agency">
+                  North Waziristan Agency
+                </option>
+                <option value="Orakzai Agency">Orakzai Agency</option>
+                <option value="South Waziristan Agency">
+                  South Waziristan Agency
+                </option>
+                <optgroup
+                  title="Gilgit-Baltistan"
+                  label="» Gilgit-Baltistan"
+                ></optgroup>
+                <option value="Chilas">Chilas</option>
+                <option value="Ghizer">Ghizer</option>
+                <option value="Gilgit">Gilgit</option>
+                <option value="Hunza">Hunza</option>
+                <option value="Skardu">Skardu</option>
+                <optgroup
+                  title="Islamabad Capital"
+                  label="» Islamabad Capital"
+                ></optgroup>
+                <option value="Islamabad">Islamabad</option>
+                <optgroup
+                  title="North-West Frontier Province (NWFP)"
+                  label="» North-West Frontier Province (NWFP)"
+                ></optgroup>
+                <option value="Abbottabad">Abbottabad</option>
+                <option value="Bannu">Bannu</option>
+                <option value="Batagram">Batagram</option>
+                <option value="Buner">Buner</option>
+                <option value="Charsadda">Charsadda</option>
+                <option value="Chitral">Chitral</option>
+                <option value="Dera Ismail Khan">Dera Ismail Khan</option>
+                <option value="Dir Lower">Dir Lower</option>
+                <option value="Dir Upper">Dir Upper</option>
+                <option value="Hangu">Hangu</option>
+                <option value="Haripur">Haripur</option>
+                <option value="Karak">Karak</option>
+                <option value="Kohat">Kohat</option>
+                <option value="Kohistan">Kohistan</option>
+                <option value="Lakki Marwat">Lakki Marwat</option>
+                <option value="Malakand">Malakand</option>
+                <option value="Mansehra">Mansehra</option>
+                <option value="Mardan">Mardan</option>
+                <option value="Nowshera">Nowshera</option>
+                <option value="Peshawar">Peshawar</option>
+                <option value="Shangla">Shangla</option>
+                <option value="Swabi">Swabi</option>
+                <option value="Swat">Swat</option>
+                <option value="Tank">Tank</option>
+                <optgroup title="Punjab" label="» Punjab"></optgroup>
+                <option value="Alipur">Alipur</option>
+                <option value="Attock">Attock</option>
+                <option value="Bahawalnagar">Bahawalnagar</option>
+                <option value="Bahawalpur">Bahawalpur</option>
+                <option value="Bhakkar">Bhakkar</option>
+                <option value="Chakwal">Chakwal</option>
+                <option value="Chiniot">Chiniot</option>
+                <option value="Dera Ghazi Khan">Dera Ghazi Khan</option>
+                <option value="Faisalabad">Faisalabad</option>
+                <option value="Gujranwala">Gujranwala</option>
+                <option value="Gujrat">Gujrat</option>
+                <option value="Hafizabad">Hafizabad</option>
+                <option value="Jhang">Jhang</option>
+                <option value="Jhelum">Jhelum</option>
+                <option value="Kabirwala">Kabirwala</option>
+                <option value="Kasur">Kasur</option>
+                <option value="Khanewal">Khanewal</option>
+                <option value="Khushab">Khushab</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Layyah">Layyah</option>
+                <option value="Lodhran">Lodhran</option>
+                <option value="Mandi Bahauddin">Mandi Bahauddin</option>
+                <option value="Mianwali">Mianwali</option>
+                <option value="Multan">Multan</option>
+                <option value="Muzaffargarh">Muzaffargarh</option>
+                <option value="Nankana Sahib">Nankana Sahib</option>
+                <option value="Narowal">Narowal</option>
+                <option value="Okara">Okara</option>
+                <option value="Pakpattan">Pakpattan</option>
+                <option value="Rahim Yar Khan">Rahim Yar Khan</option>
+                <option value="Rajanpur">Rajanpur</option>
+                <option value="Rawalpindi">Rawalpindi</option>
+                <option value="Sahiwal">Sahiwal</option>
+                <option value="Sargodha">Sargodha</option>
+                <option value="Sheikhupura">Sheikhupura</option>
+                <option value="Sialkot">Sialkot</option>
+                <option value="Toba Tek Singh">Toba Tek Singh</option>
+                <option value="Vehari">Vehari</option>
+                <optgroup title="Sindh" label="» Sindh"></optgroup>
+                <option value="Badin">Badin</option>
+                <option value="Dadu">Dadu</option>
+                <option value="Ghotki">Ghotki</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Jacobabad">Jacobabad</option>
+                <option value="Jamshoro">Jamshoro</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Kashmore">Kashmore</option>
+                <option value="Khairpur">Khairpur</option>
+                <option value="Larkana">Larkana</option>
+                <option value="Matiari">Matiari</option>
+                <option value="Mirpur Khas">Mirpur Khas</option>
+                <option value="Naushahro Feroze">Naushahro Feroze</option>
+                <option value="Nawabshah">Nawabshah</option>
+                <option value="Qambar Shahdadkot">Qambar Shahdadkot</option>
+                <option value="Sanghar">Sanghar</option>
+                <option value="Shikarpur">Shikarpur</option>
+                <option value="Sukkur">Sukkur</option>
+                <option value="Tando Allahyar">Tando Allahyar</option>
+                <option value="Tando Muhammad Khan">Tando Muhammad Khan</option>
+                <option value="Tharparkar">Tharparkar</option>
+                <option value="Thatta">Thatta</option>
+                <option value="Umerkot">Umerkot</option>
+              </select>
+            </p>
+            <p class="city aze p1">
+              <label class="label1">Select Blood Group</label>
+              <select
+                name="bloodgroup"
+                id="bloodgroup"
+                title="Select Your BloodGroup"
+              >
+                <option value>--Choose Blood Group--</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+              </select>
+            </p>
+
+            <p class="aze city p1">
+              <label>
+                <input
+                  name="button"
+                  type="submit"
+                  class="btnsearch"
+                  id="button2"
+                />
+              </label>
+            </p>
+          </form>
+        </div>
+      </div>
+      <div id="bodycenter">
+        <div id="round">
+          <h2 class="at">Frequently Asked Questions</h2>
+          <br />
+          <div id="faqsarea">
+            <h3 class="ak">About Blood Donotion</h3>
+            <h2 id="question">
+              1:-In which situation do people generally donote blood?
+            </h2>
+            <p id="answer">
+              There are three types of blood donors:-
+              <br />
+
+              PROFESSIONAL DONORS – They sell their blood, which can be
+              infectious and can transmit very dangerous diseases to the
+              recipient. It is illegal to take blood from any professional
+              donor.
+              <br />
+
+              (2) REPLACEMENT DONATION – Healthy relatives and friends of the
+              patient give their blood, of any group, to the blood bank. In
+              exchange, the required number of units in the required blood group
+              is given.
+              <br />
+
+              (3) VOLUNTARY DONATION- Here a donor donates blood voluntarily.
+              The blood can be used for any patient even without divulging the
+              identity of the donor. This is the best type of blood donation
+              where a motivated human being gives blood in an act of selfless
+              service.
+              <br />
+            </p>
+            <h2 id="question">
+              2:-In which situations do patients need blood transfusion?
+            </h2>
+            <p id="answer">
+              There are many situations in which patients need blood to stay
+              alive:<br />
+              · A patient needs blood after a major accident in which there is
+              loss of blood.<br />
+              · No major surgery is performed without blood as there is bound to
+              be blood loss.<br />
+              · On an average, for every open heart surgery about 6 units of
+              blood is required.<br />
+              · In miscarriage or childbirth, cases the patient may need large
+              amount of blood to be transfused for saving her life and also the
+              child’s.<br />
+              · For patients with blood diseases like severe Anaemias especially
+              Aplastic Anaemias, Leucaemias (blood cancer), Haemophilia
+              (bleeding disorder), Thalassemia etc. repeated blood transfusions
+              are the only solution.<br />
+              · In many other situations like poisoning, drug reactions, shock,
+              burns, blood transfusion is the only way to save precious human
+              life.
+            </p>
+            <br />
+
+            <h2 id="question">
+              3:-Are there any other benefits of blood donation?
+            </h2>
+
+            <p id="answer">
+              Yes, blood donation is a noble, selfless service! It gives the
+              donor a feeling of joy and contentment. Also this is an expression
+              of love for Mankind, as blood knows no caste, color, creed,
+              religion or race, country, continent or sex.
+            </p>
+            <br />
+
+            <h2 id="question">4:-Can a donor work after donating blood?</h2>
+            <p id="answer">
+              Of course! Routine work is absolutely fine after the initial rest.
+              Rigorous physical work should be avoided for a few hours.
+            </p>
+            <br />
+
+            <h2 id="question">
+              5:-Can blood of animals be transfused to human beings?
+            </h2>
+            <p id="answer">
+              Scientists have tried a lot but so far they are not successful.
+              Only the blood of a human being can be transfused to a human
+              patient.
+            </p>
+            <br />
+
+            <h2 id="question">6:-Can we separate blood into its components?</h2>
+            <p id="answer">
+              Yes! Now with technical advancements, we can make components of
+              blood and store them. For example, plasma can be separated from
+              whole blood and stored up to one year in frozen state at -80 deg C
+              temperature or below. This is called Fresh Frozen Plasma.
+              Similarly there are other components like Platelet Rich Plasma;
+              Platelet Concentrate (can be stored as a life saving measure upto
+              5 days now at 22-24 degrees C in a platelet incubator and
+              agitator); Cryoprecipitate (which is very useful in treating
+              bleeding disorders due to the deficiency of factor VIII and IX);
+              Factor VIII and IX; Albumin, Globulin and many others.<br />
+              In most progressive blood banks more than 85% of the blood
+              collected is converted into components and stored. This is because
+              many patients do not require whole blood. For example, a patient
+              whose haemoglobin is low and is therefore anaemic, may just
+              require Packed Cells i.e. only red cells; a patient with burns may
+              need more of plasma than cells; a patient with haemophilia may
+              require only Factor VIII.<br />
+              Now with the advent of cell-separators, we can directly draw a
+              particular component from the donor, while rest of the blood
+              constituents go back to the donor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="Faqs.js"></script>
+  </body>
+</html>

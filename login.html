@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Donation System</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+  <body>
+    <!-- <img class="bm" id="background" src="./assets/background.jpg" alt="blood"> -->
+    <nav class="navbar">
+      <ul class="ul list">
+        <li class="item"><a href="main.html">Home</a></li>
+        <li class="item"><a href="Emergency.html">Emergency</a></li>
+        <li class="item"><a href="about.html">About</a></li>
+        <li class="item"><a href="Faqs.html">FAQs</a></li>
+        <li class="item"><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Welcome to our login page</h1>
+      <form action="">
+        <div class="Form-group">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter your username"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="Password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="start">Get started</button>
+        </div>
+        <input
+          type="checkbox"
+          id="chkbox"
+          name="chkbox"
+          title="Keep me logged in"
+        />
+        <label for="chkbox" id="keep">Keep logged in</label>
+        <ul class="list">
+          <li class="password">
+            <a href="forget.html" class="sz">Forget password</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+   <script src="login.js"></script>
+  </body>
+</html>

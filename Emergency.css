@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+body {
+  background: url("./assets/background.jpg") no-repeat center center fixed;
+}
+.bodycenter {
+  float: left;
+  width: 500px;
+  padding: 2px;
+  margin-left: 18%;
+  margin: left 230px;
+}
+.round {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  width: 100%;
+}
+h3 {
+  color: red;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.fieldset {
+  border: none;
+}
+.selectcity {
+  margin: 0 10px 0 0;
+}
+.radiobtns {
+  margin: 0 10px 0 0;
+  color: white;
+  font-size: 18px;
+  padding: 20px;
+}
+.selectcity {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  color: white;
+}
+#cityhelp {
+  border: #c4c3c4 solid 1px;
+  width: 100%;
+  margin-left: 35px;
+  height: 24px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: #f00 groove 1px;
+}
+.radio {
+  border: #c4c3c4 solid 1px;
+  width: 10px;
+  margin-left: 20px;
+}
+#btncity {
+  background: #fff;
+  width: 100px;
+  font-weight: bold;
+  border: #f00 groove 1px;
+  margin-left: 100px;
+  font-size: 15px;
+  padding: 2px;
+  border-radius: 10px;
+}
+.tblList {
+  width: 100%;
+  color: white;
+  font-size: 18px;
+}

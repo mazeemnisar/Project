@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul li {
+  list-style: none;
+  font-size: 1.5rem;
+  gap: 20px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+}
+.navbar ul li a:hover {
+  background-color: black;
+  color: white;
+}
+.right {
+  position: absolute;
+  right: 20px;
+  top: 32px;
+  display: inline-block;
+}
+.right:hover {
+  cursor: pointer;
+}
+.container {
+  max-width: 35%;
+  padding: 34px;
+  text-align: justify;
+  margin: auto;
+  font-size: 18px;
+}
+label {
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-left: 10px;
+  color: white;
+}
+#name {
+  width: 87%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 7px;
+  border-radius: 13px;
+  height: 40px;
+  border: #c4c3c4 solid;
+}
+#gender {
+  margin-left: 15%;
+}
+.blood-group {
+  width: 89%;
+  margin-left: 20px;
+  margin-left: 20px;
+  padding: 7px;
+  border-radius: 13px;
+  height: 40px;
+  border: #c4c3c4 solid;
+}
+.city {
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 7px;
+  border-radius: 13px;
+  height: 40px;
+  border: #c4c3c4 solid;
+}
+.contact {
+  width: 87%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 7px;
+  border-radius: 13px;
+  height: 40px;
+  border: #c4c3c4 solid;
+}
+.email {
+  width: 87%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 7px;
+  border-radius: 13px;
+  height: 40px;
+  border: #c4c3c4 solid;
+}
+.submit {
+  width: 50%;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-left: 120px;
+  padding: 5px;
+  font-size: 15px;
+}
+.background {
+  width: max-content;
+  position: absolute;
+  z-index: -1;
+  opacity: 2.8;
+}
+.day {
+  /* width: 25%; */
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 7px;
+  border-radius: 8px;
+  height: 25px;
+  border: #c4c3c4 solid;
+}

@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: url("./assets/background.jpg") no-repeat center center fixed;
+}
+.container {
+  max-width: 35%;
+  padding: 34px;
+  margin: auto;
+  text-align: justify;
+  font-size: 18px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+#username {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  display: block;
+  padding: 5px;
+  font-size: 15px;
+  border: 2px solid blueviolet;
+  border-radius: 35px;
+  outline: none;
+  border: #f00 groove 2px;
+  margin-bottom: 15px;
+}
+#password {
+  margin: auto;
+  text-align: center;
+  display: block;
+  width: 50%;
+  font-size: 15px;
+  padding: 5px;
+  border: 2px solid blueviolet;
+  border-radius: 35px;
+  outline: none;
+  border: #f00 groove 2px;
+  margin-bottom: 15px;
+}
+#start {
+  margin: auto;
+  text-align: center;
+  display: block;
+  width: 40%;
+  /*margin: 2% 0%;*/
+  padding: 5px;
+  font-size: 15px;
+  border: 2px solid blueviolet;
+  border-radius: 35px;
+  outline: none;
+  border: #f00 groove 2px;
+  margin-bottom: 15px;
+}
+#keep {
+  color: white;
+  margin-left: 0;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+#chkbox {
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+ul li a:hover {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  border-radius: 15px;
+}
